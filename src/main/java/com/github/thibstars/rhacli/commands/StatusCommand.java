@@ -11,7 +11,7 @@ import picocli.CommandLine.Command;
 /**
  * @author Thibault Helsmoortel
  */
-@Command(name = "status", description = "Fetches the HA status.")
+@Command(name = "status", description = "Fetches the HA status.", mixinStandardHelpOptions = true)
 @SuppressWarnings("java:S106") // This is a console application, so use of System.out is just fine
 public class StatusCommand extends SubCommand {
 
