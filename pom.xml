@@ -20,7 +20,7 @@
 
         <picocli.version>4.7.6</picocli.version>
         <logback.version>1.5.6</logback.version>
-        <JHAAPI.version>1.0-SNAPSHOT</JHAAPI.version>
+        <JHAAPI.version>1.0.1</JHAAPI.version>
     </properties>
 
     <dependencies>
@@ -91,10 +91,10 @@
     </build>
 
     <repositories>
-<!--        <repository>
+        <repository>
             <id>jitpack.io</id>
             <url>https://jitpack.io</url>
-        </repository>-->
+        </repository>
     </repositories>
 
 </project>
