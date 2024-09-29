@@ -1,7 +1,7 @@
 package com.github.thibstars.rhacli.commands;
 
 import com.github.thibstars.jhaapi.Configuration;
-import com.github.thibstars.jhaapi.client.status.Status;
+import com.github.thibstars.jhaapi.client.status.response.Status;
 import com.github.thibstars.jhaapi.client.status.StatusService;
 import com.github.thibstars.jhaapi.client.status.StatusServiceImpl;
 import java.net.MalformedURLException;
